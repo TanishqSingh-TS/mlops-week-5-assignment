@@ -33,9 +33,9 @@ y_test = test.species
 param_grid = {
     'criterion': ['gini', 'entropy', 'log_loss'],
     'max_depth': [None, 5, 10, 20, 30],
-    'min_samples_split': [2, 5, 10],
-    'min_samples_leaf': [1, 2, 4],
-    'class_weight':[None,'balanced']
+    'min_samples_split': [2, 5],
+    'min_samples_leaf': [1],
+    'class_weight':[None]
 }
 
 
